@@ -1,3 +1,4 @@
+/// <reference path="../support/commands.d.ts" />
 describe('log in', () =>{
   it('succesfully log in', () =>{
     cy.visit('/login')
